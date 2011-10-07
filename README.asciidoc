@@ -1,3 +1,5 @@
+//// Github AsciiDoc renderer sucks bad!
+
 Ruby Gem Mac OS X Keychain Manager
 ----------------------------------
 
@@ -36,7 +38,7 @@ gem install keychain_manager
 *Reminder*, this gem was used to automate the creation of Apple iOS push notification certificates.
 The following demonstrates this process.
 
-[source,ruby]
+//// [source,ruby] must comment for Github's crappy renderer. 
 ----
 USER = 'jprichardson@gmail.com'
 KEYCHAIN = 'apple_push_keychain' #this can be anything, we just don't want to pollute the 'login' keychain
