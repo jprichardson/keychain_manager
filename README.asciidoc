@@ -14,9 +14,24 @@ As of now, this gem only contains code relevant to the generation of keys and ce
 iOS development. Of course, this could easily be expanded to include other areas.
 
 
+
+Testing
+-------
+
+Verify that the tests pass on your machine. This was tested on *Mac OS X 10.7 (Lion)*.
+
+----
+ruby test/keychain_test.rb
+----
+
+
 Usage
 -----
 
+.Install
+----
+gem install keychain_manager
+----
 
 
 License
