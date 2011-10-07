@@ -3,4 +3,25 @@ Ruby Gem Mac OS X Keychain Manager
 
 This gem aids your ruby scripts by providing access to the Mac OS X Keychain Access.
 
+Purpose
+^^^^^^^
 
+I needed a way to generate 100+ Apple push notification certificates for my iOS apps. Using the
+Mac OS X command `security`, I was able to automate the generation of certificates. This gem
+simply wraps `openssl` and `security` command line utilities.
+
+As of now, this gem only contains code relevant to the generation of keys and certificates for 
+iOS development. Of course, this could easily be expanded to include other areas.
+
+
+Usage
+-----
+
+
+
+License
+-------
+
+Copyright JP Richardson 2011
+
+Tri-licensed: GPL v2, LGPL v2, MIT
