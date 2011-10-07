@@ -20,11 +20,13 @@ iOS development. Of course, this could easily be expanded to include other areas
 Testing
 -------
 
-Verify that the tests pass on your machine. This was tested on *Mac OS X 10.7 (Lion)*.
+Verify that the tests pass on your machine. This was tested on *Mac OS X 10.7 (Lion)* using
+*Ruby 1.9.2*.
 
 ----
 ruby test/keychain_test.rb
 ----
+
 
 
 Usage
@@ -71,6 +73,8 @@ kcm.delete
 ----
 
 NOTE: You must upload the PEM_FILE to your server so that our backend push notification app can access it.
+
+
 
 License
 -------
