@@ -1,0 +1,6 @@
+Ruby Gem Mac OS X Keychain Manager
+----------------------------------
+
+This gem aids your ruby scripts by providing access to the Mac OS X Keychain Access.
+
+
